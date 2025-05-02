@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Task 2</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .content {
+            text-align: center;
+        }
+        .box {
+            border: 1px solid black;
+            display: inline-block;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <h2>Task 2</h2>
+        <div class="box">
+            <p>Lists can be nested (list inside list):</p>
+            <ul>
+                <li>Coffee</li>
+                <li>Tea
+                    <ul>
+                        <li>Black tea</li>
+                        <li>Green tea</li>
+                    </ul>
+                </li>
+                <li>Milk</li>
+            </ul>
+        </div>
+        <p>Click any of the following links</p>
+        <a href="#" target="_blank">Opens in New</a> |
+        <a href="#" target="_self">Opens in Self</a> |
+        <a href="#" target="_parent">Opens in Parent</a> |
+        <a href="#" target="_top">Opens in Body</a>
+    </div>
+</body>
+</html>

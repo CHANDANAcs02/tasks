@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+
+    h1 {
+      color: #1e40af;
+      text-align: left;
+    }
+
+    .center-container {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 40px;
+    }
+
+    table {
+      border-collapse: separate;
+      border-spacing: 5px;
+      border: 2px solid teal;
+      background-color: lightblue;
+      border-radius: 10px;
+    }
+
+    th, td {
+      border: 1px solid teal;
+      padding: 8px 12px;
+      border-radius: 15px;
+      text-align: center;
+    }
+
+    th {
+      font-weight: bold;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(3, 70px);
+      grid-gap: 20px;
+      justify-content: center;
+    }
+
+    .block {
+      width: 70px;
+      height: 50px;
+      border: 2px solid #9acd32; /* Yellow-green border */
+    }
+
+    .rounded {
+      border-radius: 15px;
+    }
+
+    .oval {
+      border-radius: 50%;
+    }
+  </style>
+</head>
+<body>
+
+
+
+<div class="center-container">
+  <table>
+    <tr>
+      <th>Firstname</th>
+      <th>Lastname</th>
+      <th>Age</th>
+    </tr>
+    <tr>
+      <td>Jill</td>
+      <td>Smith</td>
+      <td>50</td>
+    </tr>
+    <tr>
+      <td>Eve</td>
+      <td>Jackson</td>
+      <td>94</td>
+    </tr>
+    <tr>
+      <td>John</td>
+      <td>Doe</td>
+      <td>80</td>
+    </tr>
+  </table>
+</div>
+
+<div class="grid">
+  <div class="block rounded"></div>
+  <div class="block rounded"></div>
+  <div class="block rounded"></div>
+  <div class="block rounded"></div>
+  <div class="block rounded"></div>
+  <div class="block rounded"></div>
+  <div class="block oval"></div>
+  <div class="block rounded"></div>
+  <div class="block rounded"></div>
+</div>
+
+</body>
+</html>
